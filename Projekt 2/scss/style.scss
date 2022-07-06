@@ -1,0 +1,49 @@
+@import url(./reset.scss);
+
+body {
+    background-color: rgb(213, 225, 239);
+}
+
+div.wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    height: 600px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+div.img {
+    position: relative;
+    height: 60%;
+}
+
+div.img img {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    border-radius: 10px;
+}
+
+div.content {
+    position: absolute;
+    top: 63%;
+    left: 5%;
+    width: 90%;
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 30px;
+    color: rgb(69, 69, 69);
+}
+
+p {
+    font-size: 20px;
+    color: rgb(163, 163, 163);
+}
+
